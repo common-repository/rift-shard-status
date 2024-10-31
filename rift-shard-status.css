@@ -1,0 +1,43 @@
+div.riftss .riftss_content{
+	text-align: center;
+}
+
+div.riftss .riftss_online {
+	color: #1fd439;
+}
+
+div.riftss .riftss_offline {
+	color: #e63837;
+}
+
+div.riftss .riftss_shard_online {
+	background: url('../../plugins/rift-shard-status/shard_status_online.png') no-repeat;
+	padding-left: 17px;
+	margin-left: -2px;
+}
+
+div.riftss .riftss_shard_offline {
+	background: url('../../plugins/rift-shard-status/shard_status_offline.png') no-repeat;
+	padding-left: 17px;
+	margin-left: -2px;
+}
+
+div.riftss .riftss_shard_high, div.riftss .riftss_shard_FULL {
+	color: #e9403e;
+}
+
+div.riftss .riftss_shard_medium {
+	color: #d68903;
+}
+
+div.riftss .riftss_shard_low {
+	color: #4dbb11;
+}
+
+div.riftss .riftss_main {
+	font-size: 1.2em;
+}
+
+div.riftss .riftss_last_updated {
+	font-size: 0.9em;
+}

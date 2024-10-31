@@ -1,0 +1,208 @@
+# Copyright (C) 2010-present Rift Shard Status, Baraan <baraan@baraans-corner.de>
+# This file is distributed under the same license as the Rift Shard Status package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rift Shard Status 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/rift-shard-status\n"
+"POT-Creation-Date: 2011-06-15 10:17:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-06-15 13:12+0200\n"
+"Last-Translator: Baraan <baraan@baraans-corner.de>\n"
+"Language-Team: Baraan <baraan@baraans-corner.de>\n"
+
+#: rift-shard-status.php:37
+msgid ""
+"Cache directory not writable. Please make sure wordpress can write the cache "
+"directory and the files within."
+msgstr "Das Cache-Verzeichnis ist nicht beschreibbar. Bitte stell sicher, dass Wordpress das Cache-Verzeichnis und die Dateien darin beschreiben kann."
+
+#: rift-shard-status.php:61
+msgid ""
+"Cannot open cache file, check the install guide and make sure the cache "
+"directory is writable."
+msgstr "Die Cache-Datei konnte nicht gefunden werden, bitte prüfe die Installations-Anleitung und stelle sicher, dass das Cache-Verzeichnis beschreibbar ist."
+
+#: rift-shard-status.php:66
+msgid ""
+"Rift status server not reachable. Tried to fetch <a href=\"%1$s\">this Link</a>."
+msgstr "Rift Statusserver nicht erreichbar. Hab versucht <a href=\"%1$s\">diesen Link</a> runterzuladen."
+
+#: rift-shard-status.php:88 rift-shard-status.php:89
+msgid "online"
+msgstr "online"
+
+#: rift-shard-status.php:88 rift-shard-status.php:89
+msgid "offline"
+msgstr "offline"
+
+#: rift-shard-status.php:90
+msgid "PvP"
+msgstr "PvP"
+
+#.translators: population as we get it from trion can be low, medium, high or FULL
+#: rift-shard-status.php:93
+msgid "low"
+msgstr "niedrig"
+
+#.translators: population as we get it from trion can be low, medium, high or FULL
+#: rift-shard-status.php:93
+msgid "medium"
+msgstr "mittel"
+
+#.translators: population as we get it from trion can be low, medium, high or FULL
+#: rift-shard-status.php:93
+msgid "high"
+msgstr "hoch"
+
+#.translators: population as we get it from trion can be low, medium, high or FULL
+#: rift-shard-status.php:93
+msgid "FULL"
+msgstr "voll"
+
+#. translators: i.e.: Immerwacht (PvE) is online
+#: rift-shard-status.php:96
+msgid "%1$s is %2$s."
+msgstr "%1$s ist %2$s."
+
+#: rift-shard-status.php:100
+msgid ""
+"The population is %1$s and there are <span class=\"riftss_shard_low\">no "
+"login queues</span>."
+msgstr "Die Bevölkerung ist %1$s und es gibt <span class=\"riftss_shard_low\">keine Warteschlange</span>."
+
+#: rift-shard-status.php:108
+msgid ""
+"The population is %1$s and there is <span class=\"%2$s\">one player in the "
+"queue</span>."
+msgid_plural ""
+"The population is %1$s and there are <span class=\"%2$s\">%3$s players "
+"queued</span> to login."
+msgstr[0] "Die Bevölkerung ist %1$s und es ist <span class=\"%2$s\">ein Spieler in der Warteschlange</span>."
+msgstr[1] "Die Bevölkerung ist %1$s und es sind <span class=\"%2$s\">%3$s Spieler in der Warteschlange</span>."
+
+#: rift-shard-status.php:116
+msgid "Just updated"
+msgstr "Gerade aktualisiert"
+
+#: rift-shard-status.php:119
+msgid "Last updated about a minute ago"
+msgstr "Vor etwa einer Minute aktualisiert"
+
+#: rift-shard-status.php:123
+msgid "Last updated about %1$s minutes ago"
+msgstr "Zuletzt vor etwa %1$s Minuten aktualisiert"
+
+#: rift-shard-status.php:129
+msgid "Shard \"%1$s\" couldn't be found or the server wasn't reachable."
+msgstr "Shard \"%1$s\" konnte nicht gefunden werden oder der Server war nicht erreichbar."
+
+#: rift-shard-status.php:179
+msgid ""
+"Cache dir (%1$s) not writable. Please make sure wordpress can write into the "
+"cache directory for the plugin to work."
+msgstr "Das Cache-Verzeichnis (%1$s) ist nicht beschreibbar. Bitte stell sicher, dass Wordpress in das Cache-Verzeichnis schreiben kann, damit das Plugin funktionieren kann."
+
+#: rift-shard-status.php:186
+msgid "Restored all settings to defaults."
+msgstr "Alle Einstellungen sind auf Standardwerte gesetzt."
+
+#: rift-shard-status.php:186
+msgid "Back"
+msgstr "Zurück"
+
+#: rift-shard-status.php:204
+msgid ""
+"Some settings couldn't be saved. More details in the error message below:"
+msgstr "Einige Einstellungen konnten nicht gespeichert werden. Details in der folgenden Fehlermeldung:"
+
+#: rift-shard-status.php:208
+msgid "Changes saved."
+msgstr "Einstellungen gespeichert."
+
+#: rift-shard-status.php:223
+msgid "Rift Shard Status Options"
+msgstr "Rift Shard Status Optionen"
+
+#: rift-shard-status.php:227
+msgid "Include Rift Shard Status CSS"
+msgstr "Nutze mitgeliefertes CSS"
+
+#: rift-shard-status.php:230
+msgid ""
+"If checked the CSS included with the addon will be used. In case you want to "
+"modify the design deactivate this option and copy the contents of rift-shard-"
+"status.css into your own stylesheet to prevent them from being overwritten by "
+"updates of the plugin."
+msgstr "Wenn diese Option ausgewählt ist, wird das mitgelieferte Rift Shard Status CSS benutzt. Für den Fall dass Du die Optik modifizieren möchtest, solltest Du die Option deaktivieren und den Inhalt von rift-shard-status.css in Dein eigenes Stylesheet kopieren um das Überschreiben von Änderungen beim Update des Plugins zu verhindern."
+
+#: rift-shard-status.php:237
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: rift-shard-status.php:238
+msgid "Restore Built-in Defaults"
+msgstr "Standardeinstellungen wiederherstellen"
+
+#: rift-shard-status.php:259
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: rift-shard-status-widget.php:22
+msgid "Shows the shard status, like population and queue size."
+msgstr "Zeigt den Shard Status, wie Auslastung und Warteschlangenlänge"
+
+#: rift-shard-status-widget.php:41
+msgid "Please configure the widget settings in the widget screen."
+msgstr "Bitte stelle die Widgeteinstellungen im Widget-Bereich ein."
+
+#: rift-shard-status-widget.php:79
+msgid "Title:"
+msgstr "Titel:"
+
+#: rift-shard-status-widget.php:81
+msgid "Shard:"
+msgstr "Shard:"
+
+#: rift-shard-status-widget.php:83
+msgid "Region:"
+msgstr "Region:"
+
+#: rift-shard-status-widget.php:85
+msgid "EU"
+msgstr "EU"
+
+#: rift-shard-status-widget.php:86
+msgid "US"
+msgstr "US"
+
+#: rift-shard-status-widget.php:90
+msgid "Cache time in seconds:"
+msgstr "Cache Zeit in Sekunden:"
+
+#: rift-shard-status-widget.php:94
+msgid "Show last updated?"
+msgstr "Zeige letzte Aktualisierungszeit an?"
+
+#. Plugin Name of the plugin/theme
+msgid "Rift Shard Status"
+msgstr "Rift Shard Status"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.baraans-corner.de/wordpress-plugins/rift-shard-status/"
+msgstr "http://www.baraans-corner.de/wordpress-plugins/rift-shard-status/"
+
+#. Description of the plugin/theme
+msgid ""
+"Shows the population, queue size and type (PvP, PvE, RP) of a shard (server) "
+"from the MMORPG Rift."
+msgstr "Zeigt die Bevölkerungsauslastung, Warteschlange und Art (PvP, PvE, RP) eines Shards (Servers) des MMORPGs Rift an."
+
+#. Author of the plugin/theme
+msgid "Baraan@EU-Immerwacht  <baraans@baraans-corner.de>"
+msgstr "Baraan@EU-Immerwacht  <baraans@baraans-corner.de>"
+
+#. Author URI of the plugin/theme
+msgid "http://www.baraans-corner.de/"
+msgstr "http://www.baraans-corner.de/"
